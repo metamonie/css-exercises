@@ -2,6 +2,35 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.title {
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+.contents {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  gap: 52px;
+}
+
+.items {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+p {
+  text-align: center;
+}
+
 img {
   width: 100px;
   height: 100px;
@@ -11,6 +40,9 @@ img {
   font-size: 36px;
   font-weight: 900;
 }
+
+
+
 
 /* do not edit this footer */
 .footer {
